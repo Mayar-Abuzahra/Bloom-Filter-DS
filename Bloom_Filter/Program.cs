@@ -4,9 +4,9 @@
     {
         //m: size of the bit array
         //n: number of elements in the array
+        //2: number of hash functions
         static double FalsePositiveRate(int m, int n)
         {
-            //2: number of hash functions
             double p = Math.Exp(-2.0 * n / m);
             return Math.Pow(1 - p, 2);
         }
