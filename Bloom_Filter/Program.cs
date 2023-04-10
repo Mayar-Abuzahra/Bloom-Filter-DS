@@ -2,6 +2,8 @@
 {
     internal class Program
     {
+        //m: size of the bit array
+        //n: number of elements in the array
         static double FalsePositiveRate(int m, int n)
         {
             //2: number of hash functions
