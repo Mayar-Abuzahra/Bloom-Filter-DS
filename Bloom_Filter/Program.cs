@@ -12,12 +12,12 @@
         }
         static void Main(string[] args)
         {
-            bool[] bitarray = new bool[10];
-            int arr_size = 10;
-
             //sample example
             string[] array = { "history", "abounds", "abundance", "tree", "bloom",
                                "blossom", "flower", "math", "power", "school"};
+            
+            bool[] bitarray = new bool[10];
+            int arr_size = 10;
 
             BloomFilter bf = new BloomFilter();
 
